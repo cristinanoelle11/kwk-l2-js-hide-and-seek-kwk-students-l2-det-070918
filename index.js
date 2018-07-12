@@ -19,6 +19,7 @@ start = 12;
 for (let i = 0, l = children.length; i < l; i++) {
   expect(parseInt(children[i].innerHTML)).toEqual(start - i + 3);
 }
+
 }
 function deepestChild(){
   return document.querySelector('#grand-node div div div div')
