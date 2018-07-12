@@ -8,14 +8,3 @@ function nestedTarget(){
 function increaseRankBy(n){
   const rankedLists = document.querySelectorAll('.ranked-list')
 
-for (let i = 0, l = children.length; i < l; i++) {
-  expect(parseInt(children[i].innerHTML)).toEqual(start + i + 3)
-}
-children = secondList.children
-start = 12
-for (let i = 0, l = children.length; i < l; i++) {
-  expect(parseInt(children[i].innerHTML)).toEqual(start - i + 3)
-}
-}
-onsole.log(deepestChild().innerHTML)
-expect(deepestChild()).toBe(document.querySelector('#grand-node div div div div'))
